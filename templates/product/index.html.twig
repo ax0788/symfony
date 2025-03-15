@@ -4,6 +4,10 @@
 
 {% block body %}
 <h1>Products</h1>
+<a class="button" style="width: fit-content" href="{{ path('product_new') }}"
+  >Add New Product</a
+>
+
 
 <table>
   <thead>
@@ -11,6 +15,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Size</th>
+
     </tr>
   </thead>
   <tbody>

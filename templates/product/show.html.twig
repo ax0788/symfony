@@ -23,6 +23,19 @@
   </tbody>
 </table>
 
+<a
+  class="button"
+  style="width: fit-content"
+  href="{{ path('product_edit', { id: product.id }) }}"
+  >Edit</a
+>
+<a
+  class="button"
+  style="width: fit-content"
+  href="{{ path('product_delete', { id: product.id }) }}"
+  >Delete</a
+>
+
 
 
 {% endblock %}
